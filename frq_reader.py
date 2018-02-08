@@ -3,7 +3,7 @@ import struct
 filename = raw_input("Enter file name:\n")
 
 with open(filename, 'rb') as f:
-	# Header.
+    # Header.
     header_text = f.read(8).decode('utf-8')
     print header_text
     
